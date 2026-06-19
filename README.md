@@ -6,3 +6,6 @@ You need
 - pygame (for the GUIversion)
 
 thats it.
+
+## how to start GUIversion
+open up terminal, navigate to GUIversion folder with cd commands, run `python (or python3) graphicaltest.py`
