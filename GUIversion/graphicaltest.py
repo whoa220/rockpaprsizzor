@@ -2,7 +2,15 @@ import sys
 
 import pygame
 
+import random
+
 from rock import Rock
+
+from paper import Paper
+
+from scissor import Scissor
+
+from objectd import ObjectD
 
 class scissorrock:
 	"""managing game assets sha-"""
@@ -11,11 +19,22 @@ class scissorrock:
 		"""makes the game and resources"""
 		pygame.init()
 
+		self.can_clik = True # toggle
+
 		pygame.display.set_caption("rock paper dodechahedreaon scissors")
 
 		self.screen = pygame.display.set_mode((1200, 800))
 
-		self.rock = Rock(self)
+		self.rock = []
+		self.paper = []
+		self.scissor = []
+		self.objectd = []
+
+		for i in range(5):
+			self.rock.append(Rock(self))
+			self.paper.append(Paper(self))
+			self.scissor.append(Scissor(self))
+			self.objectd.append(ObjectD(self))
 
 	def run_game(self):
 		"""starts the loop for the game, primary"""
@@ -28,18 +47,52 @@ class scissorrock:
 		
 		while True:
 			# i see you keyboard and mouse
+			mouse_pos = pygame.mouse.get_pos()
+
 			for event in pygame.event.get():
 				if event.type == pygame.QUIT:
-					sys.quit()
+					sys.exit()
+
+				if event.type == pygame.MOUSEBUTTONUP:
+					self.can_clik = True
 
 			# checkerboard background
 			self.screen.blit(background, (0, 0))
-			pygame.display.flip()
 			clock.tick(60)
-			self.rock.blitme()
+
+			# make the clanker choose
+			choices = ["r", "p", "d", "s"]
+			aichoice = random.choice(choices)
+
+			#asset loading
+			for rock in self.rock:
+				rock.blitme()
+				if pygame.mouse.get_pressed()[0] and rock.rect.collidepoint(mouse_pos) and self.can_clik:
+					self.can_clik = False
+					print("it works for the rock")
+
+			for paper in self.paper:
+				paper.blitme()
+				if pygame.mouse.get_pressed()[0] and paper.rect.collidepoint(mouse_pos) and self.can_clik:
+					self.can_clik = False
+					print("it works for paper")
+			          
+			for scissor in self.scissor:
+				scissor.blitme()
+				if pygame.mouse.get_pressed()[0] and scissor.rect.collidepoint(mouse_pos) and self.can_clik:
+					self.can_clik = False
+					print("it works for the scissor")
+
+			for objectd in self.objectd:
+				objectd.blitme()
+				if pygame.mouse.get_pressed()[0] and objectd.rect.collidepoint(mouse_pos) and self.can_clik:
+					self.can_clik = False
+					print("it works for the objectd")
 
 			# makes last screen visable
 			pygame.display.flip()
+
+		pygame.quit()
 
 if __name__ == '__main__':
 	# make game instnace and run said instnace

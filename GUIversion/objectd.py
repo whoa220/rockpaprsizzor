@@ -1,6 +1,6 @@
 import pygame
 
-class Rock:
+class ObjectD:
 	"""class to manage rock and stone"""
 
 	def __init__(self, ai_game):
@@ -9,12 +9,12 @@ class Rock:
 		self.screen_rect = ai_game.screen.get_rect()
 
 		# get the rock into frame
-		og_img = pygame.image.load('photos/rock.png')
-		self.image = pygame.transform.scale_by(og_img, 0.7)
+		og_img = pygame.image.load('photos/objectd.png')
+		self.image = pygame.transform.scale_by(og_img, 0.5)
 		self.rect = self.image.get_rect()
 
 		# start it at the bottom of screen, in a neat row
-		self.rect.bottomright = self.screen_rect.bottomright
+		self.rect.topleft = self.screen_rect.topleft
 
 	def blitme(self):
 		"""doodle the rock at its spot"""
