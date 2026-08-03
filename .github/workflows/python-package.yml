@@ -33,7 +33,7 @@ jobs:
       env:
         SDL_VIDEODRIVER: "dummy"
         SDL_AUDIODRIVER: "disk"
-      run: python main.py
+      run: python ../../GUIversion/graphicaltest.py
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
