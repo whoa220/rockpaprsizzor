@@ -1,0 +1,775 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"score",
+				"score_text"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"ai",
+				"aiplayer"
+			],
+			[
+				"set",
+				"set_xlabel"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/mnt/119a83ca-e151-48e1-a7e5-73979492af0a/website/style.css",
+			"file_size": 8746,
+			"file_write_time": 134284906823592989,
+			"settings":
+			{
+				"buffer_size": 8746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dominic/sandbox/tests/hello.c",
+			"file_size": 79,
+			"file_write_time": 134359702287586052,
+			"settings":
+			{
+				"buffer_size": 79,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAAKwAAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					5,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAArAAAAaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj05MWR6Wm9Eb0F0NA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAArAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "#"
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAIw",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"",
+					null,
+					"AQAAAAAAAAAAAAAATQAAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "/n"
+					},
+					"AgAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					17,
+					2,
+					"left_delete",
+					null,
+					"AgAAADsAAAAAAAAAOwAAAAAAAAABAAAAbjoAAAAAAAAAOgAAAAAAAAABAAAALw",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA8AAAAAAAAADwAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "\\n"
+					},
+					"AgAAADoAAAAAAAAAOwAAAAAAAAAAAAAAOwAAAAAAAAA8AAAAAAAAAAAAAAA",
+					"CAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "mousetest.py",
+			"file_size": 977,
+			"file_write_time": 134263174131541192,
+			"settings":
+			{
+				"buffer_size": 977,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "graphicaltest.py",
+			"file_size": 4292,
+			"file_write_time": 134364044487089234,
+			"settings":
+			{
+				"buffer_size": 4292,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\nself."
+					},
+					"BwAAALYLAAAAAAAAtwsAAAAAAAAAAAAAtwsAAAAAAAC9CwAAAAAAAAAAAAC9CwAAAAAAAL4LAAAAAAAAAAAAAL4LAAAAAAAAvwsAAAAAAAAAAAAAvwsAAAAAAADACwAAAAAAAAAAAADACwAAAAAAAMELAAAAAAAAAAAAAMELAAAAAAAAwgsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgsAAAAAAAC2CwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert_completion",
+					{
+						"completion": "aiplayer",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": true,
+						"trigger": "aiplayer"
+					},
+					"AQAAAMILAAAAAAAAygsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgsAAAAAAADCCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " +="
+					},
+					"AwAAAMoLAAAAAAAAywsAAAAAAAAAAAAAywsAAAAAAADMCwAAAAAAAAAAAADMCwAAAAAAAM0LAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygsAAAAAAADKCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": " 1"
+					},
+					"AgAAAM0LAAAAAAAAzgsAAAAAAAAAAAAAzgsAAAAAAADPCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQsAAAAAAADNCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "el"
+					},
+					"AgAAAOANAAAAAAAA4Q0AAAAAAAAAAAAA4Q0AAAAAAADiDQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4A0AAAAAAADgDQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAEIFAAAAAAAAQwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQgUAAAAAAABCBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": " your"
+					},
+					"BQAAAEMFAAAAAAAARAUAAAAAAAAAAAAARAUAAAAAAABFBQAAAAAAAAAAAABFBQAAAAAAAEYFAAAAAAAAAAAAAEYFAAAAAAAARwUAAAAAAAAAAAAARwUAAAAAAABIBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAQwUAAAAAAABDBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": " t"
+					},
+					"AgAAAEgFAAAAAAAASQUAAAAAAAAAAAAASQUAAAAAAABKBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASAUAAAAAAABIBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "roubles"
+					},
+					"BwAAAEoFAAAAAAAASwUAAAAAAAAAAAAASwUAAAAAAABMBQAAAAAAAAAAAABMBQAAAAAAAE0FAAAAAAAAAAAAAE0FAAAAAAAATgUAAAAAAAAAAAAATgUAAAAAAABPBQAAAAAAAAAAAABPBQAAAAAAAFAFAAAAAAAAAAAAAFAFAAAAAAAAUQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASgUAAAAAAABKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " arte"
+					},
+					"BQAAAFEFAAAAAAAAUgUAAAAAAAAAAAAAUgUAAAAAAABTBQAAAAAAAAAAAABTBQAAAAAAAFQFAAAAAAAAAAAAAFQFAAAAAAAAVQUAAAAAAAAAAAAAVQUAAAAAAABWBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUQUAAAAAAABRBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFUFAAAAAAAAVQUAAAAAAAABAAAAZVQFAAAAAAAAVAUAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAVgUAAAAAAABWBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "re"
+					},
+					"AgAAAFQFAAAAAAAAVQUAAAAAAAAAAAAAVQUAAAAAAABWBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAUAAAAAAABUBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					2,
+					"left_delete",
+					null,
+					"AgAAAFUFAAAAAAAAVQUAAAAAAAABAAAAZVQFAAAAAAAAVAUAAAAAAAABAAAAcg",
+					"AQAAAAAAAAABAAAAVgUAAAAAAABWBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "e"
+					},
+					"AQAAAFQFAAAAAAAAVQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAUAAAAAAABUBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": " miles"
+					},
+					"BgAAAFUFAAAAAAAAVgUAAAAAAAAAAAAAVgUAAAAAAABXBQAAAAAAAAAAAABXBQAAAAAAAFgFAAAAAAAAAAAAAFgFAAAAAAAAWQUAAAAAAAAAAAAAWQUAAAAAAABaBQAAAAAAAAAAAABaBQAAAAAAAFsFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVQUAAAAAAABVBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": " awasy"
+					},
+					"BgAAAFsFAAAAAAAAXAUAAAAAAAAAAAAAXAUAAAAAAABdBQAAAAAAAAAAAABdBQAAAAAAAF4FAAAAAAAAAAAAAF4FAAAAAAAAXwUAAAAAAAAAAAAAXwUAAAAAAABgBQAAAAAAAAAAAABgBQAAAAAAAGEFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWwUAAAAAAABbBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					2,
+					"left_delete",
+					null,
+					"AgAAAGAFAAAAAAAAYAUAAAAAAAABAAAAeV8FAAAAAAAAXwUAAAAAAAABAAAAcw",
+					"AQAAAAAAAAABAAAAYQUAAAAAAABhBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "yyyy"
+					},
+					"BAAAAF8FAAAAAAAAYAUAAAAAAAAAAAAAYAUAAAAAAABhBQAAAAAAAAAAAABhBQAAAAAAAGIFAAAAAAAAAAAAAGIFAAAAAAAAYwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwUAAAAAAABfBQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "settings.py",
+			"file_size": 470,
+			"file_write_time": 134262338937722397,
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dominic/sandbox/tests/scraper.py",
+			"file_size": 532,
+			"file_write_time": 134360566053409387,
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dominic/Documents/sandbox/doc-user-guide"
+	],
+	"file_history":
+	[
+		"/home/dominic/sandbox/tests/hello.py",
+		"/home/dominic/sandbox/statistics/binomial.py",
+		"/home/dominic/Pictures/art/silly art/Kifmez the most body dysmorphic fucker ever/kifskeleton.svg",
+		"/home/dominic/sandbox/tests/scraper.py",
+		"/home/dominic/thunderbird/signatureWF.html",
+		"/run/user/1000/gvfs/dav:host=neocities.org,ssl=true,prefix=%2Fwebdav/links.html",
+		"/run/user/1000/gvfs/dav:host=neocities.org,ssl=true,prefix=%2Fwebdav/test.html",
+		"/home/dominic/sandbox/tests/hello.asm",
+		"/home/dominic/sandbox/python/helloGit/hello_git.py",
+		"/home/dominic/sandbox/python/data/fakr.py",
+		"/home/dominic/Downloads/mintinstall.py",
+		"/home/dominic/sandbox/mintinstall/apt_flatpak_matcher.py",
+		"/home/dominic/sandbox/python/data/faker.py",
+		"/home/dominic/sandbox/python/Untitled Folder/untitled.py",
+		"/home/dominic/sandbox/python/Untitled Folder/dataprogram.py",
+		"/home/dominic/sandbox/doc-install/docs/conf.py",
+		"/home/dominic/.steam/debian-installation/steamapps/common/Kerbal Space Program/Ships/Script/orbit (copy).ks",
+		"/home/dominic/Documents/pas/index.html",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/graphicaltest.py",
+		"/home/dominic/Downloads/rules",
+		"/home/dominic/Documents/sandbox/planky/plank-reloaded/zquestz.plank_reloaded.Plank.yaml",
+		"/home/dominic/Downloads/theme.xpi",
+		"/home/dominic/Documents/sandbox/doc-user-guide/docs/troubleshooting/software.rst",
+		"/home/dominic/Documents/pas/style.css",
+		"/home/dominic/Documents/pas/uno/sidebar.html",
+		"/home/dominic/Documents/pas/uno/main.html",
+		"/home/dominic/Documents/pas/test.html",
+		"/home/dominic/.steam/debian-installation/steamapps/common/Kerbal Space Program/Ships/Script/hellolaunch.ks",
+		"/home/dominic/.steam/debian-installation/steamapps/common/Kerbal Space Program/Ships/Script/orbit.ks",
+		"/home/dominic/.steam/debian-installation/steamapps/common/Kerbal Space Program/Ships/Script/why",
+		"/run/user/1000/gvfs/dav:host=neocities.org,ssl=true,prefix=%2Fwebdav/style.css",
+		"/usr/bin/mintupdate-launcher",
+		"/usr/bin/hp-testpage",
+		"/usr/bin/gnome-terminal",
+		"/home/dominic/Documents/sandbox/doc-user-guide/docs/conf.py",
+		"/mnt/119a83ca-e151-48e1-a7e5-73979492af0a/website/books.html",
+		"/mnt/119a83ca-e151-48e1-a7e5-73979492af0a/website/index.html",
+		"/home/dominic/Documents/sandbox/doc-dev/docs/conf.py",
+		"/home/dominic/Documents/sandbox/webbedsite/linuxmint.com/index.html",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/rock.py",
+		"/home/dominic/sandbox/python/scissorgame/scissorgame.py",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/mousetest.py",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/objectd.py",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/scissor.py",
+		"/home/dominic/sandbox/python/scissorgame/GUIversion/paper.py",
+		"/home/dominic/Sandbox/python/scissorgame/GUIversion/settings.py",
+		"/home/dominic/Sandbox/python/scissorgame/scissorgame.py",
+		"/home/dominic/Sandbox/goofing with python/ForFruits/forfruits.py",
+		"/home/dominic/Sandbox/goofing with python/helloGit/hello_git.py",
+		"/home/dominic/Sandbox/goofing with python/Untitled Folder/untitled.py",
+		"/home/dominic/Downloads/ehmatthes-pcc_2e-99e082e/chapter_16/the_csv_file_format/sitka_highs.py",
+		"/home/dominic/Sandbox/goofing with python/untitled.py",
+		"/home/dominic/Sandbox/goofing with python/data/4338286.csv",
+		"/home/dominic/Sandbox/mintinstall/usr/lib/linuxmint/mintinstall/mintinstall.py",
+		"/home/dominic/Sandbox/mintupload/usr/lib/linuxmint/mintupload/mintupload.py",
+		"/mnt/119a83ca-e151-48e1-a7e5-73979492af0a/website/test.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/mnt/119a83ca-e151-48e1-a7e5-73979492af0a/website/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/dominic/sandbox/tests/hello.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 79,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mousetest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "graphicaltest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1379,
+								1379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "settings.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/dominic/sandbox/tests/scraper.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0,
+		"history":
+		[
+		]
+	},
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 1010.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
