@@ -1,5 +1,7 @@
 import sys
 
+import os
+
 import pygame
 
 import random
@@ -54,7 +56,7 @@ class scissorrock:
 		[pygame.draw.rect(background, color, rect) for rect, color in tiles]
 		
 		while True:
-			# i see you keyboard and mouse
+			# i see you keyboard and mouse, your troubles are miles awayyyy
 			mouse_pos = pygame.mouse.get_pos()
 
 			for event in pygame.event.get():
@@ -71,6 +73,13 @@ class scissorrock:
 
 			# make the clanker choose
 			choices = ["rock", "paper", "objectd", "scissors"]
+
+			winning_moves = {
+			    "r": "p",
+			    "p": "s",
+			    "s": "r"
+			}
+
 			aichoice = random.choice(choices)
 
 			#asset loading
@@ -80,6 +89,12 @@ class scissorrock:
 					self.can_clik = False
 					self.choice = "rock"
 					print("it works for the rock")
+					if aichoice == "scissors":
+						print("Victory")
+						self.player += 1
+					else:
+						print("ass.")
+						self.aiplayer += 1
 
 			for paper in self.paper:
 				paper.blitme()
@@ -105,20 +120,21 @@ class scissorrock:
 						self.player += 1
 					else:
 						print("just get good...")
+						self.aiplayer += 1
 
 			for objectd in self.objectd:
 				objectd.blitme()
 				if pygame.mouse.get_pressed()[0] and objectd.rect.collidepoint(mouse_pos) and self.can_clik:
 					self.can_clik = False
 					self.choice = "objectd"
-					print("it works for the objectd")
-					if aichoice == "r":
-						print("why are you so bad at this game? SUPER F!!!")
+					print("it works for" + self.choice)
+					if aichoice == "rock":
+						print("why are you so bad at this game, " + os.getlogin() + "? SUPER F!!!")
 						self.aiplayer += 20
-					elif aichoice == "p":
+					elif aichoice == "paper":
 						print("alas, you cannot make a dodecahedreon on a piece of p, so YOU WIN!!!")
 						self.player += 20
-					if aichoice == "s":
+					elif aichoice == "scissors":
 						print("you cant cut a dodecahedreon you clanker")
 						self.player += 20
 
