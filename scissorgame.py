@@ -1,4 +1,8 @@
 import random
+from markov import MarkovChain
+
+print("\nRockPaprScizor Copyright (C) 2026 WalterFisher")
+print("Don't come crying to me if this breaks, its under NO WARRANTY\n")
 
 # start scores at 0
 player = 0
@@ -15,11 +19,13 @@ winningmoves = {
 	"d": "r",
 	"d": "s"
 }
+markvov_chain = MarkovChain(choices, n_states=4)
 
 # actual gameplay
+n_round = 1
 while True:
 	playerchoice = input("Choose rock, papr, scizzors, or dodechedreon (q to quit) ")
-	aichoice = random.choice(choices)
+	aichoice = winningmoves[markvov_chain.predict()]
 	# prints result for person to see
 
 	if playerchoice == "q":
@@ -41,9 +47,12 @@ while True:
 		result = "player wins"
 		player += 1
 
+	markvov_chain.update(playerchoice)
+
 	#printing final scores
 	print("\n")
-	print(result)
+	print(result + " for round %s" % n_round)
 	print("human: %s" % player)
 	print("robot: %s" % aiplayer)
 	print("\n")
+	n_round += 1
