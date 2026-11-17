@@ -1,17 +1,10 @@
 import sys
-
 import os
-
 import pygame
-
 import random
-
 from rock import Rock
-
 from paper import Paper
-
 from scissor import Scissor
-
 from objectd import ObjectD
 
 class scissorrock:
@@ -72,7 +65,7 @@ class scissorrock:
 			clock.tick(60)
 
 			# make the clanker choose
-			choices = ["rock", "paper", "objectd", "scissors"]
+			choices = ["r", "p", "d", "s"]
 
 			winning_moves = {
 			    "r": "p",
@@ -143,7 +136,7 @@ class scissorrock:
 				print(f"computa chose {aichoice}")
 				print("																				")
 
-			ubuntu_bold = pygame.font.Font('/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf', 30)
+			ubuntu_bold = pygame.font.Font(None, 30)
 			score_text = pygame.font.Font.render(ubuntu_bold, 'player: {self.player} | computer: {self.aiplayer}', True, (255, 255, 255))
 			self.screen.blit(score_text, (250, 300))
 
