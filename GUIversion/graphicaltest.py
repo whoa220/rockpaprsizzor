@@ -134,7 +134,7 @@ class scissorrock:
 			if self.choice and not self.score_calculated:
 				self.score_calculated = True
 				print(f"computa chose {aichoice}")
-				print("																				")
+				print("\n")
 
 			ubuntu_bold = pygame.font.Font(None, 30)
 			score_text = pygame.font.Font.render(ubuntu_bold, 'player: {self.player} | computer: {self.aiplayer}', True, (255, 255, 255))
